@@ -47,9 +47,9 @@
 
 #### Semantic ID-based Recommender Architecture
 
-1. **Recommender Systems with Generative Retrieval**
+1. **Recommender Systems with Generative Retrieval.** NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.05065)]
 
-   *Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan H. Keshavan, Trung Vu, Lukasz Heldt, Lichan Hong, Yi Tay, Vinh Q. Tran, Jonah Samost, Maciej Kula, Ed H. Chi, Maheswaran Sathiamoorthy.* [[paper](https://arxiv.org/abs/2305.05065)], NeurIPS 2023.
+   *Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan H. Keshavan, Trung Vu, Lukasz Heldt, Lichan Hong, Yi Tay, Vinh Q. Tran, Jonah Samost, Maciej Kula, Ed H. Chi, Maheswaran Sathiamoorthy.*
 
 #### Semantic ID Construction
 
