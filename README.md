@@ -35,6 +35,10 @@
 
 #### Zero-shot Recommendation with LLMs
 
+1. **Large language models are zero-shot rankers for recommender systems.** ECIR 2024. [[paper](https://arxiv.org/pdf/2305.08845)]
+
+   *Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley, Wayne Xin Zhao.*
+
 #### Aligning LLMs with User Behaviors
 
 #### LLM-powered Agents in Recommendation
