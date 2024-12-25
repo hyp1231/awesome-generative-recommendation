@@ -39,6 +39,16 @@
 
    *Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley, Wayne Xin Zhao.*
 
+2. **Chat-REC: Towards Interactive and Explainable LLMs-Augmented Recommender System.** Arxiv 2023. [[paper](https://arxiv.org/pdf/2303.14524)]
+
+   *Yunfan Gao, Tao Sheng, Youlin Xiang, Yun Xiong, Haofen Wang, Jiawei Zhang.*
+
+3. **Is ChatGPT a Good Recommender? A Preliminary Study.** CIKM 2023. [[paper](https://arxiv.org/pdf/2304.10149)]
+
+   *Junling Liu, Chao Liu, Peilin Zhou, Renjie Lv, Kang Zhou, Yan Zhang.*
+
+
+
 #### Aligning LLMs with User Behaviors
 
 #### LLM-powered Agents in Recommendation
