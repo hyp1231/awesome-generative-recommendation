@@ -162,12 +162,35 @@
 
     *Wenyue Hua, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang.*
 
+21. **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation.** arXiv preprint arXiv:2308.11131. [[paper](https://arxiv.org/pdf/2308.11131)]
 
-21. **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/pdf/2311.09049)]
+    *Jianghao Lin, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, and Weinan Zhang.*
+
+22. **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/pdf/2311.09049)]
 
     *Bowen Zheng, Yupeng Hou, Hongyu Lu, Yu Chen, Wayne Xin Zhao, Ming Chen, Ji-Rong Wen.*
 
 
+23. **Collm: Integrating collaborative embeddings into large language models for recommendation.** arXiv preprint arXiv:2310.19488. [[paper](https://arxiv.org/pdf/2310.19488)]
+
+    *Yang Zhang, Fuli Feng, Jizhi Zhang, Keqin Bao, Qifan Wang and Xiangnan He.*
+
+24. **E4SRec: An Elegant Effective Efficient Extensible Solution of Large Language Models for Sequential Recommendation.** Arxiv 2023. [[paper](https://arxiv.org/pdf/2312.02443)]
+
+    *Xinhang Li, Chong Chen, Xiangyu Zhao, Yong Zhang, Chunxiao Xing.*
+
+25. **Text Is All You Need: Learning Language Representations for Sequential Recommendation.** arXiv preprint arXiv:2305.13731. [[paper](https://arxiv.org/pdf/2305.13731)]
+
+    *Jiacheng Li, Ming Wang, Jin Li, Jinmiao Fu, Xin Shen, Jingbo Shang, and Julian McAuley.*
+
+26. **GenRec: Large Language Model for Generative Recommendation.** ECIR 2024. [[paper](https://openreview.net/pdf?id=KiX8CW0bCr)]
+
+    *Jianchao Ji, Zelong Li, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Juntao Tan, Yongfeng Zhang.*
+
+
+27. **ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models.** WSDM 2024. [[paper](https://arxiv.org/pdf/2305.06566)]
+
+   *Qijiong Liu, Nuo Chen, Tetsuya Sakai, Xiao-Ming Wu.*
 
 #### LLM-based Conversational Recommender Systems
 
