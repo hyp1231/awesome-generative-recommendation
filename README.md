@@ -325,7 +325,25 @@
 
 ### Diffusion Model-based Generative Recommendation
 
-#### Diffusion-based Recommendation Architecture
+#### Diffusion-enhanced Recommendation
+
+* **Diffusion Augmentation for Sequential Recommendation.** CIKM 2023. [[paper](https://arxiv.org/abs/2309.12858)]
+
+    *Qidong Liu, Fan Yan, Xiangyu Zhao, Zhaocheng Du, Huifeng Guo, Ruiming Tang, Feng Tian.*
+
+* **Diff4Rec: Sequential Recommendation withCurriculum-scheduled Diffusion Augmentation.** MM 2023. [[paper](https://dl.acm.org/doi/10.1145/3581783.3612709)]
+
+    *Zihao Wu, Xin Wang, Hong Chen, Kaidong Li, Yi Han, Lifeng Sun, Wenwu Zhu.*
+
+* **DiffMM: Multi-Modal Diffusion Model for Recommendation.** MM 2024. [[paper](https://arxiv.org/abs/2406.11781)]
+
+    *Yangqin Jiang, Lianghao Xia, Wei Wei, Da Luo, Kangyi Lin, Chao Huang.*
+
+* **Conditional Denoising Diffusion for Sequential Recommendation.** PAKDD 2024. [[paper](https://arxiv.org/abs/2304.11433)]
+
+    *Yu Wang, Zhiwei Liu, Liangwei Yang, Philip S. Yu.*
+
+
 
 #### ID Embedding Generation with Diffusion
 
