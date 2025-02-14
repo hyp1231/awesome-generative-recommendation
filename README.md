@@ -1,4 +1,4 @@
-# Awesome Generative Recommendation
+![image](https://github.com/user-attachments/assets/d6f1ee38-8a12-4d3f-bcef-1251903f7a09)![image](https://github.com/user-attachments/assets/f131e6df-c1ed-494a-9177-4f666570a183)# Awesome Generative Recommendation
 
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/hyp1231/awesome-generative-recommendation/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -345,7 +345,44 @@
 
 
 
-#### ID Embedding Generation with Diffusion
+#### Diffusion as Recommender
+
+* **Diffusion Recommender Model.** SIGIR 2023. [[paper](https://arxiv.org/abs/2304.04971)]
+
+    *Wenjie Wang, Yiyan Xu, Fuli Feng, Xinyu Lin, Xiangnan He, Tat-Seng Chua.*
+
+* **Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion.** NeurIPS 2023. [[paper](https://arxiv.org/abs/2310.20453)]
+
+    *Zhengyi Yang, Jiancan Wu, Zhicai Wang, Xiang Wang, Yancheng Yuan, Xiangnan He.*
+
+* **Bridging User Dynamics: Transforming Sequential Recommendations with Schrödinger Bridge and Diffusion Models.** CIKM 2024. [[paper](https://arxiv.org/abs/2409.10522)]
+
+    *Wenjia Xie, Rui Zhou, Hao Wang, Tingjia Shen, Enhong Chen.*
+
+* **DimeRec: A Unified Framework for Enhanced Sequential Recommendation via Generative Diffusion Models.** CIKM 2024. [[paper](https://arxiv.org/abs/2408.12153)]
+
+    *Wuchao Li, Rui Huang, Haijun Zhao, Chi Liu, Kai Zheng, Qi Liu, Na Mou, Guorui Zhou, Defu Lian, Yang Song, Wentian Bao, Enyun Yu, Wenwu Ou.*
+
+* **Plug-in Diffusion Model for Sequential Recommendation.** AAAI 2024. [[paper](https://arxiv.org/abs/2401.02913)]
+
+    *Haokai Ma, Ruobing Xie, Lei Meng, Xin Chen, Xu Zhang, Leyu Lin, Zhanhui Kang.*
+
+* **SeeDRec: Sememe-based Diffusion for Sequential Recommendation.** IJCAI 2024. [[paper](https://www.ijcai.org/proceedings/2024/251)]
+
+    *Haokai Ma, Ruobing Xie, Lei Meng, Yimeng Yang, Xingwu Sun, Zhanhui Kang.*
+
+* **Breaking Determinism: Fuzzy Modeling of Sequential Recommendation Using Discrete State Space Diffusion Model.** NeurIPS 2024. [[paper](https://arxiv.org/abs/2410.23994)]
+
+    *Wenjia Xie, Hao Wang, Luankang Zhang, Rui Zhou, Defu Lian, Enhong Chen.*
+
+* **Distinguished Quantized Guidance for Diffusion-based Sequence Recommendation.** WWW 2025. [[paper](https://arxiv.org/abs/2501.17670)]
+
+    *Wenyu Mao, Shuchang Liu, Haoyang Liu, Haozhe Liu, Xiang Li, Lantao Hu.*
+
+* **Preference Diffusion for Recommendation.** ICLR 2025. [[paper](https://arxiv.org/abs/2410.13117)]
+
+    *Shuo Liu, An Zhang, Guoqing Hu, Hong Qian, Tat-seng Chua.*
+
 
 #### Personalized Content Generation with Diffusion
 
