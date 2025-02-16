@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d6f1ee38-8a12-4d3f-bcef-1251903f7a09)![image](https://github.com/user-attachments/assets/f131e6df-c1ed-494a-9177-4f666570a183)# Awesome Generative Recommendation
+# Awesome Generative Recommendation
 
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/hyp1231/awesome-generative-recommendation/pulls)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
