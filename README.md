@@ -297,6 +297,14 @@
 
     *Taolin Zhang, Junwei Pan, Jinpeng Wang, Yaohua Zha, Tao Dai, Bin Chen, Ruisheng Luo, Xiaoxiang Deng, Yuan Wang, Ming Yue, Jie Jiang, Shu-Tao Xia.*
 
+* (PRORec) **Progressive Collaborative and Semantic Knowledge Fusion for Generative Recommendation.** arXiv:2502.06269. [[paper](https://arxiv.org/abs/2502.06269)]
+
+    *Longtao Xiao, Haozhao Wang, Cheng Wang, Linfei Ji, Yifan Wang, Jieming Zhu, Zhenhua Dong, Rui Zhang, Ruixuan Li.*
+
+* **ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation.** arXiv:2502.13581. [[paper](https://arxiv.org/abs/2502.13581)]
+
+    *Yupeng Hou, Jianmo Ni, Zhankui He, Noveen Sachdeva, Wang-Cheng Kang, Ed H. Chi, Julian McAuley, Derek Zhiyuan Cheng.*
+
 #### Aligning with Language Models
 
 * **Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5).** RecSys 2022. [[paper](https://arxiv.org/abs/2203.13366)] [[code](https://github.com/jeykigung/P5)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeykigung/P5)
@@ -315,13 +323,21 @@
 
     *Juntao Tan, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Zelong Li, Yongfeng Zhang.*
 
-* (AtSpeed) **Efficient Inference for Large Language Model-based Generative Recommendation.** arXiv:2410.05165. [[paper](https://arxiv.org/abs/2410.05165)]
+* (AtSpeed) **Efficient Inference for Large Language Model-based Generative Recommendation.** ICLR 2025. [[paper](https://arxiv.org/abs/2410.05165)] [[code](https://github.com/Linxyhaha/AtSpeed)]
 
     *Xinyu Lin, Chaoqun Yang, Wenjie Wang, Yongqi Li, Cunxiao Du, Fuli Feng, See-Kiong Ng, Tat-Seng Chua.*
 
 * **Semantic Convergence: Harmonizing Recommender Systems via Two-Stage Alignment and Behavioral Semantic Tokenization.** AAAI 2025. [[paper](https://arxiv.org/abs/2412.13771)]
 
     *Guanghan Li, Xun Zhang, Yufei Zhang, Yifan Yin, Guojun Yin, Wei Lin.*
+
+* (SETRec) **Order-agnostic Identifier for Large Language Model-based Generative Recommendation.** arXiv:2502.10833. [[paper](https://arxiv.org/abs/2502.10833)]
+
+    *Xinyu Lin, Haihan Shi, Wenjie Wang, Fuli Feng, Qifan Wang, See-Kiong Ng, Tat-Seng Chua.*
+
+* **EAGER-LLM: Enhancing Large Language Models as Recommenders through Exogenous Behavior-Semantic Integration.** WWW 2025. [[paper](https://arxiv.org/abs/2502.14735)]
+
+    *Minjie Hong, Yan Xia, Zehan Wang, Jieming Zhu, Ye Wang, Sihang Cai, Xiaoda Yang, Quanyu Dai, Zhenhua Dong, Zhimeng Zhang, Zhou Zhao.*
 
 ### Diffusion Model-based Generative Recommendation
 
