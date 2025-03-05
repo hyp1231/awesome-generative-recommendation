@@ -243,6 +243,10 @@
 
     *Liu Yang, Fabian Paischer, Kaveh Hassani, Jiacheng Li, Shuai Shao, Zhang Gabriel Li, Yun He, Xue Feng, Nima Noorshams, Sem Park, Bo Long, Robert D Nowak, Xiaoli Gao, Hamid Eghbalzadeh.*
 
+* **OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment.** arXiv:2502.18965. [[paper](https://arxiv.org/abs/2502.18965)]
+
+    *Jiaxin Deng, Shiyao Wang, Kuo Cai, Lejian Ren, Qigen Hu, Weifeng Ding, Qiang Luo, Guorui Zhou.*
+
 #### Item Tokenization
 
 * (DSI) **Transformer Memory as a Differentiable Search Index.** NeurIPS 2022. [[paper](https://arxiv.org/abs/2202.06991)]
@@ -323,7 +327,7 @@
 
     *Juntao Tan, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Zelong Li, Yongfeng Zhang.*
 
-* (AtSpeed) **Efficient Inference for Large Language Model-based Generative Recommendation.** ICLR 2025. [[paper](https://arxiv.org/abs/2410.05165)] [[code](https://github.com/Linxyhaha/AtSpeed)]
+* (AtSpeed) **Efficient Inference for Large Language Model-based Generative Recommendation.** ICLR 2025. [[paper](https://arxiv.org/abs/2410.05165)] [[code](https://github.com/Linxyhaha/AtSpeed)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/AtSpeed)
 
     *Xinyu Lin, Chaoqun Yang, Wenjie Wang, Yongqi Li, Cunxiao Du, Fuli Feng, See-Kiong Ng, Tat-Seng Chua.*
 
