@@ -33,10 +33,11 @@
 
 ### LLM-based Generative Recommendation
 
-#### Zero-shot Recommendation with LLMs
+#### LLM as Sequential Recommender
+
+##### Early Efforts: Zero-shot Recommendation with LLMs
 
 * (LLMRank) **Large language models are zero-shot rankers for recommender systems.** ECIR 2024. [[paper](https://arxiv.org/pdf/2305.08845)] [[code](https://github.com/RUCAIBox/LLMRank)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/LLMRank)
-
 
    *Yupeng Hou, Junjie Zhang, Zihan Lin, Hongyu Lu, Ruobing Xie, Julian McAuley, Wayne Xin Zhao.*
 
@@ -56,27 +57,153 @@
 
    *Jesse Harte, Wouter Zorgdrager, Panos Louridas, Asterios Katsifodimos, Dietmar Jannach, Marios Fragkoulis.*
 
-#### Aligning LLMs with User Behaviors
+##### Aligning LLMs for Recommendation
 
 * (TallRec) **TallRec: An Effective and Efficient Tuning Framework to Align Large Language Model with Recommendation.** RecSys 2023. [[paper](https://arxiv.org/pdf/2305.00447)] [[code](https://github.com/SAI990323/TALLRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/SAI990323/TALLRec)
 
    *Keqin Bao, Jizhi Zhang, Yang Zhang, Wenjie Wang, Fuli Feng, Xiangnan He.*
 
-* (S-DPO) **On Softmax Direct Preference Optimization for Recommendation.** NeurIPS 2024. [[paper](https://arxiv.org/pdf/2406.09215)] [[code](https://github.com/chenyuxin1999/S-DPO)] ![GitHub Repo stars](https://img.shields.io/github/stars/chenyuxin1999/S-DPO)
+* (M6-Rec) **M6-Rec: Generative Pretrained Language Models are Open-Ended Recommender Systems.** arXiv:2205.08084. [[paper](https://arxiv.org/pdf/2205.08084)]
 
-   *Yuxin Chen, Junfei Tan, An Zhang, Zhengyi Yang, Leheng Sheng, Enzhi Zhang, Xiang Wang, Tat-Seng Chua.*
+   *Zeyu Cui, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang.*
+
+* (BIGRec) **A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems.** arXiv:2308.08434. [[paper](https://arxiv.org/pdf/2308.08434)] [[code](https://github.com/SAI990323/BIGRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/SAI990323/BIGRec)
+
+   *Keqin Bao, Jizhi Zhang, Wenjie Wang, Yang Zhang, Zhengyi Yang, Yancheng Luo, Chong Chen, Fuli Feng, Qi Tian.*
+
+* (InstructRec) **Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708882)]
+
+   *Junjie Zhang, Ruobing Xie, Yupeng Hou, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
+
+* (P5) **Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5).** RecSys 2022. [[paper](https://arxiv.org/pdf/2203.13366)] [[code](https://github.com/jeykigung/P5)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeykigung/P5)
+
+   *Shijie Geng, Shuchang Liu, Zuohui Fu, Yingqiang Ge, Yongfeng Zhang.*
+
+
+* (GenRec) **Generative Recommendation: Towards Next-generation Recommender Paradigm.** arXiv:2304.03516. [[paper](https://arxiv.org/pdf/2304.03516)] [[code](https://github.com/Linxyhaha/GeneRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/GeneRec)
+
+    *Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, Tat-Seng Chua.*
+
+* (P5-ID)**How to Index Item IDs for Recommendation Foundation Models.** SIGIR-AP 2023. [[paper](https://dl.acm.org/doi/pdf/10.1145/3624918.3625339)] [[code](https://github.com/Wenyueh/LLM-RecSys-ID)] ![GitHub Repo stars](https://img.shields.io/github/stars/Wenyueh/LLM-RecSys-ID)
+
+    *Wenyue Hua, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang.*
+
+* (HKFR) **Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM.** RecSys 2023. [[paper](https://arxiv.org/pdf/2308.03333)]
+   *Bin Yin, Junjie Xie, Yu Qin, Zixiang Ding, Zhichao Feng, Xiang Li, Wei Lin.*
+
+* (LlamaRec) **LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking.** PGAI@CIKM 2023. [[paper](https://arxiv.org/pdf/2311.02089)] [[code](https://github.com/Yueeeeeeee/LlamaRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Yueeeeeeee/LlamaRec)
+   *Zhenrui Yue, Sara Rabhi, Gabriel de Souza Pereira Moreira, Dong Wang, Even Oldridge.*
+
+* (ReLLa) **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation.** arXiv:2308.11131. [[paper](https://arxiv.org/pdf/2308.11131)] [[code](https://github.com/LaVieEnRose365/ReLLa)] ![GitHub Repo stars](https://img.shields.io/github/stars/LaVieEnRose365/ReLLa)
+
+    *Jianghao Lin, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, and Weinan Zhang.*
+
+* (DEALRec) **Data-efficient Fine-tuning for LLM-based Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2401.17197)] [[code](https://github.com/Linxyhaha/DEALRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/DEALRec)
+
+    *Xinyu Lin, Wenjie Wang, Yongqi Li, Shuo Yang, Fuli Feng, Yinwei Wei, Tat-Seng Chua.*
+
+* (CLLM4Rec) **Collaborative Large Language Model for Recommender Systems.** WWW 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645347)] [[code](https://github.com/yaochenzhu/llm4rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/yaochenzhu/llm4rec)
+
+    *Yaochen Zhu, Liang Wu, Qi Guo, Liangjie Hong, Jundong Li.*
+
+* (TransRec) **Bridging Items and Language: A Transition Paradigm for Large Language Model-Based Recommendation.** KDD 2024. [[paper](https://arxiv.org/pdf/2310.06491)] [[code](https://github.com/Linxyhaha/TransRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/TransRec)
+
+   *Xinyu Lin, Wenjie Wang, Yongqi Li, Fuli Feng, See-Kiong Ng, Tat-Seng Chua.*
+
+* (RecExplainer) **RecExplainer: Aligning Large Language Models for Explaining Recommendation Models.** KDD 2024. [[paper](https://arxiv.org/pdf/2311.10947)] [[code](https://github.com/microsoft/RecAI)] ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RecAI)
+
+   *Yuxuan Lei, Jianxun Lian, Jing Yao, Xu Huang, Defu Lian, Xing Xie.*
+
+* (LC-Rec) **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/pdf/2311.09049)] [[code](https://github.com/RUCAIBox/LC-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/LC-Rec)
+
+    *Bowen Zheng, Yupeng Hou, Hongyu Lu, Yu Chen, Wayne Xin Zhao, Ming Chen, Ji-Rong Wen.*
+
+* (Collm) **Collm: Integrating collaborative embeddings into large language models for recommendation.** arXiv preprint arXiv:2310.19488. [[paper](https://arxiv.org/pdf/2310.19488)] [[code](https://github.com/zyang1580/CoLLM)] ![GitHub Repo stars](https://img.shields.io/github/stars/zyang1580/CoLLM)
+
+    *Yang Zhang, Fuli Feng, Jizhi Zhang, Keqin Bao, Qifan Wang and Xiangnan He.*
+
+* (E4SRec) **E4SRec: An Elegant Effective Efficient Extensible Solution of Large Language Models for Sequential Recommendation.** arXiv:2312.02443. [[paper](https://arxiv.org/pdf/2312.02443)] [[code](https://github.com/HestiaSky/E4SRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/HestiaSky/E4SRec)
+
+    *Xinhang Li, Chong Chen, Xiangyu Zhao, Yong Zhang, Chunxiao Xing.*
+
+* (Recformer) **Text Is All You Need: Learning Language Representations for Sequential Recommendation.** KDD 2023. [[paper](https://arxiv.org/pdf/2305.13731)]
+
+    *Jiacheng Li, Ming Wang, Jin Li, Jinmiao Fu, Xin Shen, Jingbo Shang, and Julian McAuley.*
+
+* (GenRec) **GenRec: Large Language Model for Generative Recommendation.** ECIR 2024. [[paper](https://openreview.net/pdf?id=KiX8CW0bCr)] [[code](https://github.com/rutgerswiselab/GenRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/rutgerswiselab/GenRec)
+
+    *Jianchao Ji, Zelong Li, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Juntao Tan, Yongfeng Zhang.*
+
+* (ONCE) **ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models.** WSDM 2024. [[paper](https://arxiv.org/pdf/2305.06566)] [[code](https://github.com/Jyonn/ONCE)] ![GitHub Repo stars](https://img.shields.io/github/stars/Jyonn/ONCE)
+
+   *Qijiong Liu, Nuo Chen, Tetsuya Sakai, Xiao-Ming Wu.*
+
+* (ToolRec) **Let Me Do It For You: Towards LLM Empowered Recommendation via Tool Learning.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2405.15114)]
+
+   *Yuyue Zhao, Jiancan Wu, Xiang Wang, Wei Tang, Dingxian Wang, Maarten de Rijke.*
 
 
 * (LLaRA) **LLaRA: Large Language-Recommendation Assistant.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2312.02445)] [[code](https://github.com/ljy0ustc/LLaRA)] ![GitHub Repo stars](https://img.shields.io/github/stars/ljy0ustc/LLaRA)
 
    *Jiayi Liao, Sihang Li, Zhengyi Yang, Jiancan Wu, Yancheng Yuan, Xiang Wang, Xiangnan He.*
 
+
 * (I-LLMRec) **Image is All You Need: Towards Efficient and Effective Large Language Model-Based Recommender Systems.** arXiv:2503.06238. [[paper](https://arxiv.org/pdf/2503.06238)] [[code](https://github.com/rlqja1107/torch-I-LLMRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/rlqja1107/torch-I-LLMRec)
 
    *Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park.*
 
 
-#### LLM-powered Agents in Recommendation
+
+
+##### Training Objectives & Inference
+
+* (S-DPO) **On Softmax Direct Preference Optimization for Recommendation.** NeurIPS 2024. [[paper](https://arxiv.org/pdf/2406.09215)] [[code](https://github.com/chenyuxin1999/S-DPO)] ![GitHub Repo stars](https://img.shields.io/github/stars/chenyuxin1999/S-DPO)
+
+   *Yuxin Chen, Junfei Tan, An Zhang, Zhengyi Yang, Leheng Sheng, Enzhi Zhang, Xiang Wang, Tat-Seng Chua.*
+
+
+* (D3) **Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation.** EMNLP 2024. [[paper](https://arxiv.org/pdf/2406.14900)] [[code](https://github.com/SAI990323/DecodingMatters)] ![GitHub Repo stars](https://img.shields.io/github/stars/SAI990323/DecodingMatters)
+
+   *Keqin Bao, Jizhi Zhang, Yang Zhang, Xinyue Huo, Chong Chen, Fuli Feng.*
+
+* (SLMREC) **SLMREC: Empowering Small Language Models for Sequential Recommendation.** arXiv:2405.17890. [[paper](https://arxiv.org/pdf/2405.17890)] [[code](https://github.com/WujiangXu/SLMRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/WujiangXu/SLMRec)
+
+   *Wujiang Xu, Qitian Wu, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin, Yongfeng Zhang.*
+
+
+#### LLM as Conversational Recommender
+
+* (LLM-REDIAL) **LLM-REDIAL: A Large-Scale Dataset for Conversational Recommender Systems Created from User Behaviors with LLMs.** ACL Findings 2024. [[paper](https://aclanthology.org/2024.findings-acl.529.pdf)] [[code](https://github.com/LitGreenhand/LLM-Redial)] ![GitHub Repo stars](https://img.shields.io/github/stars/LitGreenhand/LLM-Redial)
+
+   *Tingting Liang, Chenxin Jin, Lingzhi Wang, Wenqi Fan, Congying Xia, Kai Chen, Yuyu Yin.*
+
+
+* (iEvaLM) **Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models.** EMNLP 2023. [[paper](https://arxiv.org/pdf/2305.13112)] [[code](https://github.com/RUCAIBox/iEvaLM-CRS)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/iEvaLM-CRS)
+
+   *Xiaolei Wang, Xinyu Tang, Wayne Xin Zhao, Jingyuan Wang, Ji-Rong Wen.*
+
+
+*  **How Reliable is Your Simulator? Analysis on the Limitations of Current LLM-based User Simulators for Conversational Recommendation.** WWW 2024. [[paper](https://arxiv.org/pdf/2403.16416)] [[code](https://github.com/RUCAIBox/iEvaLM-CRS)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/iEvaLM-CRS)
+
+   *Lixi Zhu, Xiaowen Huang, Jitao Sang.*
+
+
+* **Large Language Models as Zero-Shot Conversational Recommenders.** CIKM 2023. [[paper](https://dl.acm.org/doi/pdf/10.1145/3583780.3614949)] [[code](https://github.com/AaronHeee/LLMs-as-Zero-Shot-Conversational-RecSys)] ![GitHub Repo stars](https://img.shields.io/github/stars/AaronHeee/LLMs-as-Zero-Shot-Conversational-RecSys)
+
+   *Zhankui He, Zhouhang Xie, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Prasad Majumder, Nathan Kallus, Julian McAuley.*
+
+
+#### LLM as User Simulator
+
+* (RecAgent) **User Behavior Simulation with Large Language Model-based Agents for Recommender Systems.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708985)] [[code](https://github.com/RUC-GSAI/YuLan-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Rec)
+
+   *Lei Wang, Jingsen Zhang, Hao Yang, Zhi-Yuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Hao Sun, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen.*
+
+
+* (AgentCF) **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems.** WWW 2024. [[paper](https://arxiv.org/pdf/2310.09233)]
+
+   *Junjie Zhang, Yupeng Hou, Ruobing Xie, Wenqi Sun, Julian McAuley, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
+
 * (Agent4Rec) **On Generative Agents in Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2310.10108)] [[code](https://github.com/LehengTHU/Agent4Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/LehengTHU/Agent4Rec)
 
    *An Zhang, Yuxin Chen, Leheng Sheng, Xiang Wang, Tat-Seng Chua.*
@@ -101,131 +228,6 @@
    *Zhefan Wang, Yuanqing Yu, Wendi Zheng, Weizhi Ma, Min Zhang.*
 
 
-* (ToolRec) **Let Me Do It For You: Towards LLM Empowered Recommendation via Tool Learning.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2405.15114)]
-
-   *Yuyue Zhao, Jiancan Wu, Xiang Wang, Wei Tang, Dingxian Wang, Maarten de Rijke.*
-
-* (RecAgent) **User Behavior Simulation with Large Language Model-based Agents for Recommender Systems.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708985)] [[code](https://github.com/RUC-GSAI/YuLan-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Rec)
-
-   *Lei Wang, Jingsen Zhang, Hao Yang, Zhi-Yuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Hao Sun, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen.*
-
-* (TransRec) **Bridging Items and Language: A Transition Paradigm for Large Language Model-Based Recommendation.** KDD 2024. [[paper](https://arxiv.org/pdf/2310.06491)] [[code](https://github.com/Linxyhaha/TransRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/TransRec)
-
-   *Xinyu Lin, Wenjie Wang, Yongqi Li, Fuli Feng, See-Kiong Ng, Tat-Seng Chua.*
-
-* (BIGRec) **A Bi-Step Grounding Paradigm for Large Language Models in Recommendation Systems.** arXiv:2308.08434. [[paper](https://arxiv.org/pdf/2308.08434)] [[code](https://github.com/SAI990323/BIGRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/SAI990323/BIGRec)
-
-   *Keqin Bao, Jizhi Zhang, Wenjie Wang, Yang Zhang, Zhengyi Yang, Yancheng Luo, Chong Chen, Fuli Feng, Qi Tian.*
-
-
-* (D3) **Decoding Matters: Addressing Amplification Bias and Homogeneity Issue for LLM-based Recommendation.** EMNLP 2024. [[paper](https://arxiv.org/pdf/2406.14900)] [[code](https://github.com/SAI990323/DecodingMatters)] ![GitHub Repo stars](https://img.shields.io/github/stars/SAI990323/DecodingMatters)
-
-   *Keqin Bao, Jizhi Zhang, Yang Zhang, Xinyue Huo, Chong Chen, Fuli Feng.*
-
-* (InstructRec) **Recommendation as Instruction Following: A Large Language Model Empowered Recommendation Approach.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708882)]
-
-   *Junjie Zhang, Ruobing Xie, Yupeng Hou, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
-
-* (GenRec) **Generative Recommendation: Towards Next-generation Recommender Paradigm.** arXiv:2304.03516. [[paper](https://arxiv.org/pdf/2304.03516)] [[code](https://github.com/Linxyhaha/GeneRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/GeneRec)
-
-    *Wenjie Wang, Xinyu Lin, Fuli Feng, Xiangnan He, Tat-Seng Chua.*
-
-* (SLMREC) **SLMREC: Empowering Small Language Models for Sequential Recommendation.** arXiv:2405.17890. [[paper](https://arxiv.org/pdf/2405.17890)] [[code](https://github.com/WujiangXu/SLMRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/WujiangXu/SLMRec)
-
-   *Wujiang Xu, Qitian Wu, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin, Yongfeng Zhang.*
-
-
-* (P5) **Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5).** RecSys 2022. [[paper](https://arxiv.org/pdf/2203.13366)] [[code](https://github.com/jeykigung/P5)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeykigung/P5)
-
-   *Shijie Geng, Shuchang Liu, Zuohui Fu, Yingqiang Ge, Yongfeng Zhang.*
-
-
-* (M6-Rec) **M6-Rec: Generative Pretrained Language Models are Open-Ended Recommender Systems.** arXiv:2205.08084. [[paper](https://arxiv.org/pdf/2205.08084)]
-
-   *Zeyu Cui, Jianxin Ma, Chang Zhou, Jingren Zhou, Hongxia Yang.*
-
-
-* (DEALRec) **Data-efficient Fine-tuning for LLM-based Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2401.17197)] [[code](https://github.com/Linxyhaha/DEALRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/DEALRec)
-
-    *Xinyu Lin, Wenjie Wang, Yongqi Li, Shuo Yang, Fuli Feng, Yinwei Wei, Tat-Seng Chua.*
-
-* (CLLM4Rec) **Collaborative Large Language Model for Recommender Systems.** WWW 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3589334.3645347)] [[code](https://github.com/yaochenzhu/llm4rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/yaochenzhu/llm4rec)
-
-    *Yaochen Zhu, Liang Wu, Qi Guo, Liangjie Hong, Jundong Li.*
-
-
-* (RecExplainer) **RecExplainer: Aligning Large Language Models for Explaining Recommendation Models.** KDD 2024. [[paper](https://arxiv.org/pdf/2311.10947)] [[code](https://github.com/microsoft/RecAI)] ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RecAI)
-
-   *Yuxuan Lei, Jianxun Lian, Jing Yao, Xu Huang, Defu Lian, Xing Xie.*
-
-* (AgentCF) **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems.** WWW 2024. [[paper](https://arxiv.org/pdf/2310.09233)]
-
-   *Junjie Zhang, Yupeng Hou, Ruobing Xie, Wenqi Sun, Julian McAuley, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
-
-* (P5-ID)**How to Index Item IDs for Recommendation Foundation Models.** SIGIR-AP 2023. [[paper](https://dl.acm.org/doi/pdf/10.1145/3624918.3625339)] [[code](https://github.com/Wenyueh/LLM-RecSys-ID)] ![GitHub Repo stars](https://img.shields.io/github/stars/Wenyueh/LLM-RecSys-ID)
-
-    *Wenyue Hua, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang.*
-
-* (ReLLa) **ReLLa: Retrieval-enhanced Large Language Models for Lifelong Sequential Behavior Comprehension in Recommendation.** arXiv:2308.11131. [[paper](https://arxiv.org/pdf/2308.11131)] [[code](https://github.com/LaVieEnRose365/ReLLa)] ![GitHub Repo stars](https://img.shields.io/github/stars/LaVieEnRose365/ReLLa)
-
-    *Jianghao Lin, Rong Shan, Chenxu Zhu, Kounianhua Du, Bo Chen, Shigang Quan, Ruiming Tang, Yong Yu, and Weinan Zhang.*
-
-* (LC-Rec) **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/pdf/2311.09049)] [[code](https://github.com/RUCAIBox/LC-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/LC-Rec)
-
-    *Bowen Zheng, Yupeng Hou, Hongyu Lu, Yu Chen, Wayne Xin Zhao, Ming Chen, Ji-Rong Wen.*
-
-
-* (Collm) **Collm: Integrating collaborative embeddings into large language models for recommendation.** arXiv preprint arXiv:2310.19488. [[paper](https://arxiv.org/pdf/2310.19488)] [[code](https://github.com/zyang1580/CoLLM)] ![GitHub Repo stars](https://img.shields.io/github/stars/zyang1580/CoLLM)
-
-    *Yang Zhang, Fuli Feng, Jizhi Zhang, Keqin Bao, Qifan Wang and Xiangnan He.*
-
-* (E4SRec) **E4SRec: An Elegant Effective Efficient Extensible Solution of Large Language Models for Sequential Recommendation.** arXiv:2312.02443. [[paper](https://arxiv.org/pdf/2312.02443)] [[code](https://github.com/HestiaSky/E4SRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/HestiaSky/E4SRec)
-
-    *Xinhang Li, Chong Chen, Xiangyu Zhao, Yong Zhang, Chunxiao Xing.*
-
-* (Recformer) **Text Is All You Need: Learning Language Representations for Sequential Recommendation.** KDD 2023. [[paper](https://arxiv.org/pdf/2305.13731)]
-
-    *Jiacheng Li, Ming Wang, Jin Li, Jinmiao Fu, Xin Shen, Jingbo Shang, and Julian McAuley.*
-
-* (GenRec) **GenRec: Large Language Model for Generative Recommendation.** ECIR 2024. [[paper](https://openreview.net/pdf?id=KiX8CW0bCr)] [[code](https://github.com/rutgerswiselab/GenRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/rutgerswiselab/GenRec)
-
-    *Jianchao Ji, Zelong Li, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Juntao Tan, Yongfeng Zhang.*
-
-
-* (ONCE) **ONCE: Boosting Content-based Recommendation with Both Open- and Closed-source Large Language Models.** WSDM 2024. [[paper](https://arxiv.org/pdf/2305.06566)] [[code](https://github.com/Jyonn/ONCE)] ![GitHub Repo stars](https://img.shields.io/github/stars/Jyonn/ONCE)
-
-   *Qijiong Liu, Nuo Chen, Tetsuya Sakai, Xiao-Ming Wu.*
-
-* (HKFR) **Heterogeneous Knowledge Fusion: A Novel Approach for Personalized Recommendation via LLM.** RecSys 2023. [[paper](https://arxiv.org/pdf/2308.03333)]
-   *Bin Yin, Junjie Xie, Yu Qin, Zixiang Ding, Zhichao Feng, Xiang Li, Wei Lin.*
-
-* (LlamaRec) **LlamaRec: Two-Stage Recommendation using Large Language Models for Ranking.** PGAI@CIKM 2023. [[paper](https://arxiv.org/pdf/2311.02089)] [[code](https://github.com/Yueeeeeeee/LlamaRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Yueeeeeeee/LlamaRec)
-   *Zhenrui Yue, Sara Rabhi, Gabriel de Souza Pereira Moreira, Dong Wang, Even Oldridge.*
-
-
-
-
-
-#### LLM-based Conversational Recommender Systems
-
-* (LLM-REDIAL) **LLM-REDIAL: A Large-Scale Dataset for Conversational Recommender Systems Created from User Behaviors with LLMs.** ACL Findings 2024. [[paper](https://aclanthology.org/2024.findings-acl.529.pdf)] [[code](https://github.com/LitGreenhand/LLM-Redial)] ![GitHub Repo stars](https://img.shields.io/github/stars/LitGreenhand/LLM-Redial)
-
-   *Tingting Liang, Chenxin Jin, Lingzhi Wang, Wenqi Fan, Congying Xia, Kai Chen, Yuyu Yin.*
-
-
-* (iEvaLM) **Rethinking the Evaluation for Conversational Recommendation in the Era of Large Language Models.** EMNLP 2023. [[paper](https://arxiv.org/pdf/2305.13112)] [[code](https://github.com/RUCAIBox/iEvaLM-CRS)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/iEvaLM-CRS)
-
-   *Xiaolei Wang, Xinyu Tang, Wayne Xin Zhao, Jingyuan Wang, Ji-Rong Wen.*
-
-
-*  **How Reliable is Your Simulator? Analysis on the Limitations of Current LLM-based User Simulators for Conversational Recommendation.** WWW 2024. [[paper](https://arxiv.org/pdf/2403.16416)] [[code](https://github.com/RUCAIBox/iEvaLM-CRS)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/iEvaLM-CRS)
-
-   *Lixi Zhu, Xiaowen Huang, Jitao Sang.*
-
-
-* **Large Language Models as Zero-Shot Conversational Recommenders.** CIKM 2023. [[paper](https://dl.acm.org/doi/pdf/10.1145/3583780.3614949)] [[code](https://github.com/AaronHeee/LLMs-as-Zero-Shot-Conversational-RecSys)] ![GitHub Repo stars](https://img.shields.io/github/stars/AaronHeee/LLMs-as-Zero-Shot-Conversational-RecSys)
-
-   *Zhankui He, Zhouhang Xie, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Prasad Majumder, Nathan Kallus, Julian McAuley.*
 
 
 
