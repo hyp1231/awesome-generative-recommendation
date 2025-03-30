@@ -73,7 +73,7 @@
 
    *Jesse Harte, Wouter Zorgdrager, Panos Louridas, Asterios Katsifodimos, Dietmar Jannach, Marios Fragkoulis.*
 
-* **Rec-GPT4V: Multimodal Recommendation with Large Vision-Language Models.** arXiv:2402.08670. [[paper](https://arxiv.org/pdf/2402.08670)]
+* (Rec-GPT4V) **Rec-GPT4V: Multimodal Recommendation with Large Vision-Language Models.** arXiv:2402.08670. [[paper](https://arxiv.org/pdf/2402.08670)]
 
    *Yuqing Liu, Yu Wang, Lichao Sun, Philip S. Yu.*
 
@@ -181,6 +181,10 @@
 
    *Kibum Kim, Sein Kim, Hongseok Kang, Jiwan Kim, Heewoong Noh, Yeonjun In, Kanghoon Yoon, Jinoh Oh, Chanyoung Park.*
 
+* (RALLRec+) **RALLRec+: Retrieval Augmented Large Language Model Recommendation with Reasoning.** arXiv:2503.20430. [[paper](https://arxiv.org/pdf/2503.20430)] [[code](https://github.com/sichunluo/RALLRec_plus)] ![GitHub Repo stars](https://img.shields.io/github/stars/sichunluo/RALLRec_plus)
+
+   *Sichun Luo, Jian Xu, Xiaojie Zhang, Linrong Wang, Sicong Liu, Hanxu Hou, Linqi Song.*
+
 ##### Training Objectives & Inference
 
 * (S-DPO) **On Softmax Direct Preference Optimization for Recommendation.** NeurIPS 2024. [[paper](https://arxiv.org/pdf/2406.09215)] [[code](https://github.com/chenyuxin1999/S-DPO)] ![GitHub Repo stars](https://img.shields.io/github/stars/chenyuxin1999/S-DPO)
@@ -196,7 +200,7 @@
    *Wujiang Xu, Qitian Wu, Zujie Liang, Jiaojiao Han, Xuying Ning, Yunxiao Shi, Wenfang Lin, Yongfeng Zhang.*
 
 
-#### LLM as Conversational Recommender
+#### LLM as Conversational Recommender & Recommendation Assistant
 
 * (LLM-REDIAL) **LLM-REDIAL: A Large-Scale Dataset for Conversational Recommender Systems Created from User Behaviors with LLMs.** ACL Findings 2024. [[paper](https://aclanthology.org/2024.findings-acl.529.pdf)] [[code](https://github.com/LitGreenhand/LLM-Redial)] ![GitHub Repo stars](https://img.shields.io/github/stars/LitGreenhand/LLM-Redial)
 
@@ -214,20 +218,6 @@
 
    *Zhankui He, Zhouhang Xie, Rahul Jha, Harald Steck, Dawen Liang, Yesu Feng, Bodhisattwa Prasad Majumder, Nathan Kallus, Julian McAuley.*
 
-#### LLM as User Simulator
-
-* (RecAgent) **User Behavior Simulation with Large Language Model-based Agents for Recommender Systems.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708985)] [[code](https://github.com/RUC-GSAI/YuLan-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Rec)
-
-   *Lei Wang, Jingsen Zhang, Hao Yang, Zhi-Yuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Hao Sun, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen.*
-
-* (AgentCF) **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems.** WWW 2024. [[paper](https://arxiv.org/pdf/2310.09233)]
-
-   *Junjie Zhang, Yupeng Hou, Ruobing Xie, Wenqi Sun, Julian McAuley, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
-
-* (Agent4Rec) **On Generative Agents in Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2310.10108)] [[code](https://github.com/LehengTHU/Agent4Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/LehengTHU/Agent4Rec)
-
-   *An Zhang, Yuxin Chen, Leheng Sheng, Xiang Wang, Tat-Seng Chua.*
-
 * (InteRecAgent) **Recommender AI Agent: Integrating Large Language Models for Interactive Recommendations.** arXiv:2308.16505. [[paper](https://arxiv.org/pdf/2308.16505)] [[code](https://github.com/microsoft/RecAI)] ![GitHub Repo stars](https://img.shields.io/github/stars/microsoft/RecAI)
 
    *Xu Huang, Jianxun Lian, Yuxuan Lei, Jing Yao, Defu Lian, Xing Xie.*
@@ -244,6 +234,36 @@
 
    *Zhefan Wang, Yuanqing Yu, Wendi Zheng, Weizhi Ma, Min Zhang.*
 
+
+#### LLM as User Simulator
+
+* (RecAgent) **User Behavior Simulation with Large Language Model-based Agents for Recommender Systems.** TOIS 2024. [[paper](https://dl.acm.org/doi/pdf/10.1145/3708985)] [[code](https://github.com/RUC-GSAI/YuLan-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUC-GSAI/YuLan-Rec)
+
+   *Lei Wang, Jingsen Zhang, Hao Yang, Zhi-Yuan Chen, Jiakai Tang, Zeyu Zhang, Xu Chen, Yankai Lin, Hao Sun, Ruihua Song, Wayne Xin Zhao, Jun Xu, Zhicheng Dou, Jun Wang, Ji-Rong Wen.*
+
+* (AgentCF) **AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems.** WWW 2024. [[paper](https://arxiv.org/pdf/2310.09233)]
+
+   *Junjie Zhang, Yupeng Hou, Ruobing Xie, Wenqi Sun, Julian McAuley, Wayne Xin Zhao, Leyu Lin, Ji-Rong Wen.*
+
+* (Agent4Rec) **On Generative Agents in Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/pdf/2310.10108)] [[code](https://github.com/LehengTHU/Agent4Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/LehengTHU/Agent4Rec)
+
+   *An Zhang, Yuxin Chen, Leheng Sheng, Xiang Wang, Tat-Seng Chua.*
+
+* **LLM-Powered User Simulator for Recommender System.** arXiv:2412.16984. [[paper](https://arxiv.org/pdf/2412.16984)]
+
+   *Zijian Zhang, Shuchang Liu, Ziru Liu, Rui Zhong, Qingpeng Cai, Xiangyu Zhao, Chunxu Zhang, Qidong Liu, Peng Jiang.*
+
+* **Enhancing Cross-Domain Recommendations with Memory-Optimized LLM-Based User Agents.** arXiv:2502.13843. [[paper](https://arxiv.org/pdf/2502.13843)]
+
+   *Jiahao Liu, Shengkang Gu, Dongsheng Li, Guangping Zhang, Mingzhe Han, Hansu Gu, Peng Zhang, Tun Lu, Li Shang, Ning Gu.*
+
+* **FLOW: A Feedback LOop FrameWork for Simultaneously Enhancing Recommendation and User Agents.** arXiv:2410.20027. [[paper](https://arxiv.org/pdf/2410.20027)]
+
+   *Shihao Cai, Jizhi Zhang, Keqin Bao, Chongming Gao, Fuli Feng.*
+
+* **A LLM-based Controllable, Scalable, Human-Involved User Simulator Framework for Conversational Recommender Systems.** arXiv:2405.08035. [[paper](https://arxiv.org/pdf/2405.08035)] [[code](https://github.com/zlxxlz1026/CSHI)] ![GitHub Repo stars](https://img.shields.io/github/stars/zlxxlz1026/CSHI)
+
+   *Lixi Zhu, Xiaowen Huang, Jitao Sang.*
 
 
 ### Semantic ID-based Generative Recommendation
