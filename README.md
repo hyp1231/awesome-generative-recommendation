@@ -522,6 +522,18 @@
 
 #### Personalized Content Generation with Diffusion
 
+* **DreamVTON: Customizing 3D Virtual Try-on with Personalized Diffusion Models.** MM2024. [[paper](https://arxiv.org/abs/2407.16511)]
+
+    *Zhenyu Xie, Haoye Dong, Yufei Gao, Zehua Ma, Xiaodan Liang*
+
+* **Instant 3D Human Avatar Generation using Image Diffusion Models.** ECCV 2024. [[paper](https://arxiv.org/abs/2406.07516)] [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)]
+
+      *Nikos Kolotouros, Thiemo Alldieck, Enric Corona, Eduard Gabriel Bazavan, Cristian Sminchisescu*
+
+* **Subject-Diffusion:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning.** SIGGRAPH 2024. [[paper](https://arxiv.org/abs/2307.11410)] [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)]
+
+      *Jian Ma, Junhao Liang, Chen Chen, Haonan Lu*
+
 * **Diffusion Models for Generative Outfit Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/abs/2402.17279)]
 
     *Yiyan Xu, Wenjie Wang, Fuli Feng, Yunshan Ma, Jizhi Zhang, Xiangnan He.*
