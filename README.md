@@ -455,7 +455,73 @@
     *Shuo Liu, An Zhang, Guoqing Hu, Hong Qian, Tat-seng Chua.*
 
 
+* **Recommendation via Collaborative Diffusion Generative Model.** KSEM 2022. [[paper]([https://link.springer.com/chapter/10.1007/978-3-031-10989-8_49](https://link.springer.com/chapter/10.1007/978-3-031-10989-8_47))]
+
+    *Joojo Walker, Ting Zhong, Fengli Zhang, Qiang Gao, Fan Zhou.*
+
+* **G-Diff: A Graph-Based Decoding Network for Diffusion Recommender Model.** IEEE TNNLS 2024. [[paper](https://ieeexplore.ieee.org/document/10750895)]
+
+    *Ruixin Chen, Jianping Fan, Meiqin Wu, Rui Cheng, Jiawen Song.*
+
+* **Collaborative Filtering Based on Diffusion Models: Unveiling the Potential of High-Order Connectivity.** SIGIR 2024. [[paper](https://arxiv.org/abs/2404.14240)] [[code](https://github.com/jackfrost168/CF_Diff)]
+
+    *Yu Hou, Jin-Duk Park, Won-Yong Shin.*
+
+* **Denoising Diffusion Recommender Model.** SIGIR 2024. [[paper](https://arxiv.org/abs/2401.06982)] [[code](https://github.com/Polaris-JZ/DDRM)]
+
+    *Jujia Zhao, Wang Wenjie, Yiyan Xu, Teng Sun, Fuli Feng, Tat-Seng Chua.*
+
+* **DGRM: Diffusion-GAN Recommendation Model to Alleviate the Mode Collapse Problem in Sparse Environments.** Pattern Recognition 2024. [[paper](https://www.sciencedirect.com/science/article/abs/pii/S0031320324004436)]
+
+    *Deng Jiangzhou, Wang Songli, Ye Jianmei, Ji Lianghao, Wang Yong.*
+
+* **Stochastic Sampling for Contrastive Views and Hard Negative Samples in Graph-based Collaborative Filtering.** WSDM 2025. [[paper](https://arxiv.org/abs/2405.00287)] [[code](https://github.com/jeongwhanchoi/SCONE)]
+
+    *Chaejeong Lee, Jeongwhan Choi, Hyowon Wi, Sung-Bae Cho, Noseong Park.*
+
+* **RecDiff: Diffusion Model for Social Recommendation.** CIKM 2024. [[paper](https://arxiv.org/abs/2406.01629)] [[code](https://github.com/HKUDS/RecDiff)]
+
+    *Zongwei Li, Lianghao Xia, Chao Huang.*
+
+* **Blurring-Sharpening Process Models for Collaborative Filtering.** SIGIR 2023. [[paper](https://arxiv.org/abs/2211.09324)]
+
+    *Jeongwhan Choi, Seoyoung Hong, Noseong Park, Sung-Bae Cho.*
+  
+* **Graph Signal Diffusion Model for Collaborative Filtering.** SIGIR 2024. [[paper](https://arxiv.org/abs/2311.08744)]
+
+    *Yunqin Zhu, Chao Wang, Qi Zhang, Hui Xiong.*
+
+* **Diffurec: A Diffusion Model for Sequential Recommendation.** TOIS 2023. [[paper](https://arxiv.org/abs/2304.00686)]
+
+    *Zihao Li, Aixin Sun, Chenliang Li.*
+
+* **A Diffusion Model for POI Recommendation.** TOIS 2023. [[paper](https://arxiv.org/abs/2304.07041)]
+
+    *Yifang Qin, Hongjun Wu, Wei Ju, Xiao Luo, Ming Zhang.*
+
+* **Towards Personalized Sequential Recommendation via Guided Diffusion.** ICIC 2024. [[paper](https://dl.acm.org/doi/10.1007/978-981-97-5618-6_1)]
+
+    *Weidong Wang, Yan Tang, Kun Tian.*
+
+* **Diffusion Recommendation with Implicit Sequence Influence.** WebConf 2024. [[paper](https://dl.acm.org/doi/10.1145/3589335.3651951)]
+
+    *Yong Niu, Xing Xing, Zhichun Jia, Ruidi Liu, Mindong Xin, Jianfu Cui.*
+
+* **Uncertainty-aware Guided Diffusion for Missing Data in Sequential Recommendation.** SIGIR 2025. [[paper](https://openreview.net/forum?id=w2HL7yuWE2)]
+
+    *Wenyu Mao, Zhengyi Yang, Jiancan Wu, Haozhe Liu, Yancheng Yuan, Xiang Wang, Xiangnan He.*
+
+* **Generate and Instantiate What You Prefer: Text-Guided Diffusion for Sequential Recommendation.** arXiv 2024. [[paper](https://arxiv.org/abs/2410.13428)]
+
+    *Guoqing Hu, Zhengyi Yang, Zhibo Cai, An Zhang, Xiang Wang.*
+
+
 #### Personalized Content Generation with Diffusion
+
+* **Diffusion Models for Generative Outfit Recommendation.** SIGIR 2024. [[paper](https://arxiv.org/abs/2402.17279)]
+
+    *Yiyan Xu, Wenjie Wang, Fuli Feng, Yunshan Ma, Jizhi Zhang, Xiangnan He.*
+
 
 ## Resouces
 
