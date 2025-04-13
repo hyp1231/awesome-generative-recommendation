@@ -414,6 +414,10 @@
 
     *Yu Wang, Zhiwei Liu, Liangwei Yang, Philip S. Yu.*
 
+* **Diffkg: Knowledge Graph Diffusion Model for Recommendation.** WSDM 2024. [[paper](https://arxiv.org/abs/2312.16890)]
+
+    *Yangqin Jiang, Yuhao Yang, Lianghao Xia, Chao Huang.*
+
 
 
 #### Diffusion as Recommender
