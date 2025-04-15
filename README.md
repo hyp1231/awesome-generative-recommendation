@@ -542,9 +542,17 @@
 
 ### Tutorials
 
-### Talks
+* **A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys).** KDD 2024. [[paper](https://arxiv.org/abs/2404.00579)]
 
-### Courses
+    *Yashar Deldjoo, Zhankui He, Julian McAuley, Anton Korikov, Scott Sanner, Arnau Ramisa, René Vidal, Maheswaran Sathiamoorthy, Atoosa Kasirzadeh, Silvia Milano.*
+
+* **Generative Recommendation Models: Progress and Directions.** WWW 2025. [[website](large-genrec.github.io/www2025.html)]
+
+    *Yupeng Hou, An Zhang, Leheng Sheng, Zhengyi Yang, Xiang Wang, Tat-Seng Chua, Julian McAuley.*
+
+* **Generative Large Recommendation Models: Emerging Trends in LLMs for Recommendation.** WWW 2025. [[paper](https://arxiv.org/abs/2502.13783)]
+
+    *Hao Wang, Wei Guo, Luankang Zhang, Jin Yao Chin, Yufei Ye, Huifeng Guo, Yong Liu, Defu Lian, Ruiming Tang, Enhong Chen.*
 
 ### Open Source Projects
 
