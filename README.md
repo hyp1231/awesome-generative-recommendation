@@ -5,31 +5,30 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 - [Papers](#papers)
-  - [Overview & Surveys](#overview--surveys)
+  <!-- - [Overview & Surveys](#overview--surveys) -->
   - [LLM-based Generative Recommendation](#llm-based-generative-recommendation)
-    - [Zero-shot Recommendation with LLMs](#zero-shot-recommendation-with-llms)
-    - [Aligning LLMs with User Behaivors](#aligning-llms-with-user-behaviors)
-    - [LLM-powered Agents in Recommendation](#llm-powered-agents-in-recommendation)
-    - [LLM-based Conversational Recommender Systems](#llm-based-conversational-recommender-systems)
+    - [LLM as Sequential Recommender](#llm-as-sequential-recommender)
+        - [Early Efforts: Zero-shot Recommendation with LLMs](#early-efforts-zero-shot-recommendation-with-llms)
+        - [Aligning LLMs for Recommendation](#aligning-llms-for-recommendation)
+        - [Training Objectives & Inference](#training-objectives--inference)
+    - [LLM as Conversational Recommender & Recommendation Assistant](#llm-as-conversational-recommender--recommendation-assistant)
+    - [LLM as User Simulator](#llm-as-user-simulator)
   - [Semantic ID-based Generative Recommendation](#semantic-id-based-generative-recommendation)
     - [SemID-based Generative Recommender Architecture](#semid-based-generative-recommender-architecture)
     - [Item Tokenization](#item-tokenization)
     - [Aligning with Language Models](#aligning-with-language-models)
   - [Diffusion Model-based Generative Recommendation](#diffusion-model-based-generative-recommendation)
-    - [Diffusion-based Recommendation Architecture](#diffusion-based-recommendation-architecture)
-    - [ID Embedding Generation with Diffusion](#id-embeddng-generation-with-diffusion)
+    - [Diffusion-enhanced Recommendation](#diffusion-enhanced-recommendation)
+    - [Diffusion as Recommender](#diffusion-as-recommender)
     - [Personalized Content Generation with Diffusion](#personalized-content-generation-with-diffusion)
 - [Resources](#resources)
     - [Tutorials](#tutorials)
-    - [Talks](#talks)
-    - [Courses](#courses)
     - [Open Source Projects](#open-source-projects)
-    - [Workshops](#workshops)
 
 
 ## Papers
 
-### Overview & Surveys
+<!-- ### Overview & Surveys -->
 
 ### LLM-based Generative Recommendation
 
@@ -550,5 +549,3 @@
 ### Open Source Projects
 
 * [Awesome-Generative-RecSys](https://github.com/jihoo-kim/Awesome-Generative-RecSys) - A repo featuring papers on generative recommender systems, though not actively maintained.
-
-### Workshops
