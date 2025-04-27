@@ -497,11 +497,11 @@ Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4
 
     *Ruixin Chen, Jianping Fan, Meiqin Wu, Rui Cheng, Jiawen Song.*
 
-* **Collaborative Filtering Based on Diffusion Models: Unveiling the Potential of High-Order Connectivity.** SIGIR 2024. [[paper](https://arxiv.org/abs/2404.14240)] [[code](https://github.com/jackfrost168/CF_Diff)]
+* **Collaborative Filtering Based on Diffusion Models: Unveiling the Potential of High-Order Connectivity.** SIGIR 2024. [[paper](https://arxiv.org/abs/2404.14240)] [[code](https://github.com/jackfrost168/CF_Diff)] ![GitHub Repo stars](https://img.shields.io/github/stars/jackfrost168/CF_Diff)
 
     *Yu Hou, Jin-Duk Park, Won-Yong Shin.*
 
-* **Denoising Diffusion Recommender Model.** SIGIR 2024. [[paper](https://arxiv.org/abs/2401.06982)] [[code](https://github.com/Polaris-JZ/DDRM)]
+* **Denoising Diffusion Recommender Model.** SIGIR 2024. [[paper](https://arxiv.org/abs/2401.06982)] [[code](https://github.com/Polaris-JZ/DDRM)] ![GitHub Repo stars](https://img.shields.io/github/stars/Polaris-JZ/DDRM)
 
     *Jujia Zhao, Wang Wenjie, Yiyan Xu, Teng Sun, Fuli Feng, Tat-Seng Chua.*
 
@@ -509,11 +509,11 @@ Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4
 
     *Deng Jiangzhou, Wang Songli, Ye Jianmei, Ji Lianghao, Wang Yong.*
 
-* **Stochastic Sampling for Contrastive Views and Hard Negative Samples in Graph-based Collaborative Filtering.** WSDM 2025. [[paper](https://arxiv.org/abs/2405.00287)] [[code](https://github.com/jeongwhanchoi/SCONE)]
+* **Stochastic Sampling for Contrastive Views and Hard Negative Samples in Graph-based Collaborative Filtering.** WSDM 2025. [[paper](https://arxiv.org/abs/2405.00287)] [[code](https://github.com/jeongwhanchoi/SCONE)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeongwhanchoi/SCONE)
 
     *Chaejeong Lee, Jeongwhan Choi, Hyowon Wi, Sung-Bae Cho, Noseong Park.*
 
-* **RecDiff: Diffusion Model for Social Recommendation.** CIKM 2024. [[paper](https://arxiv.org/abs/2406.01629)] [[code](https://github.com/HKUDS/RecDiff)]
+* **RecDiff: Diffusion Model for Social Recommendation.** CIKM 2024. [[paper](https://arxiv.org/abs/2406.01629)] [[code](https://github.com/HKUDS/RecDiff)] ![GitHub Repo stars](https://img.shields.io/github/stars/HKUDS/RecDiff)
 
     *Zongwei Li, Lianghao Xia, Chao Huang.*
 
@@ -556,11 +556,14 @@ Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4
 
     *Zhenyu Xie, Haoye Dong, Yufei Gao, Zehua Ma, Xiaodan Liang.*
 
-* **Instant 3D Human Avatar Generation using Image Diffusion Models.** ECCV 2024. [[paper](https://arxiv.org/abs/2406.07516)] [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)]
+* **Instant 3D Human Avatar Generation using Image Diffusion Models.** ECCV 2024. [[paper](https://arxiv.org/abs/2406.07516)]
+
 
     *Nikos Kolotouros, Thiemo Alldieck, Enric Corona, Eduard Gabriel Bazavan, Cristian Sminchisescu.*
 
-* **Subject-Diffusion:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning.** SIGGRAPH 2024. [[paper](https://arxiv.org/abs/2307.11410)] [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)]
+<!-- [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)] -->
+
+* **Subject-Diffusion:Open Domain Personalized Text-to-Image Generation without Test-time Fine-tuning.** SIGGRAPH 2024. [[paper](https://arxiv.org/abs/2307.11410)] [[code](https://github.com/OPPO-Mente-Lab/Subject-Diffusion)] ![GitHub Repo stars](https://img.shields.io/github/stars/OPPO-Mente-Lab/Subject-Diffusion)
 
     *Jian Ma, Junhao Liang, Chen Chen, Haonan Lu.*
 
