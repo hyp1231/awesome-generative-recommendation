@@ -5,7 +5,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 - [Papers](#papers)
-  <!-- - [Overview & Surveys](#overview--surveys) -->
+  - [Surveys](#surveys)
   - [LLM-based Generative Recommendation](#llm-based-generative-recommendation)
     - [LLM as Sequential Recommender](#llm-as-sequential-recommender)
         - [Early Efforts: Zero-shot Recommendation with LLMs](#early-efforts-zero-shot-recommendation-with-llms)
@@ -14,21 +14,30 @@
     - [LLM as Conversational Recommender & Recommendation Assistant](#llm-as-conversational-recommender--recommendation-assistant)
     - [LLM as User Simulator](#llm-as-user-simulator)
   - [Semantic ID-based Generative Recommendation](#semantic-id-based-generative-recommendation)
-    - [SemID-based Generative Recommender Architecture](#semid-based-generative-recommender-architecture)
-    - [Item Tokenization](#item-tokenization)
-    - [Aligning with Language Models](#aligning-with-language-models)
+    - [Semantic ID Construction](#semantic-id-construction)
+        - [Quantization](#quantization)
+        - [Hierarchical Clustering](#hierarchical-clustering)
+        - [Contextual Action Tokenization](#contextual-action-tokenization)
+        - [Behavior-aware Tokenization](#behavior-aware-tokenization)
+        - [Language Model-based Generator](#language-model-based-generator)
+    - [Architecture](#architecture)
+        - [Dense & Generative Retrieval](#dense--generative-retrieval)
+        - [Unified Retrieval and Ranking](#unified-retrieval-and-ranking)
+    - [Aligning with LLMs](#aligning-with-llms)
   - [Diffusion Model-based Generative Recommendation](#diffusion-model-based-generative-recommendation)
     - [Diffusion-enhanced Recommendation](#diffusion-enhanced-recommendation)
     - [Diffusion as Recommender](#diffusion-as-recommender)
     - [Personalized Content Generation with Diffusion](#personalized-content-generation-with-diffusion)
 - [Resources](#resources)
-    - [Tutorials](#tutorials)
-    - [Open Source Projects](#open-source-projects)
 
 
 ## Papers
 
-<!-- ### Overview & Surveys -->
+### Surveys
+
+* **A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys).** KDD 2024. [[paper](https://arxiv.org/abs/2404.00579)]
+
+    *Yashar Deldjoo, Zhankui He, Julian McAuley, Anton Korikov, Scott Sanner, Arnau Ramisa, René Vidal, Maheswaran Sathiamoorthy, Atoosa Kasirzadeh, Silvia Milano.*
 
 ### LLM-based Generative Recommendation
 
@@ -267,61 +276,21 @@
 
 ### Semantic ID-based Generative Recommendation
 
-#### SemID-based Generative Recommender Architecture
+#### Semantic ID Construction
 
-* (TIGER) **Recommender Systems with Generative Retrieval.** NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.05065)]
-
-   *Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan H. Keshavan, Trung Vu, Lukasz Heldt, Lichan Hong, Yi Tay, Vinh Q. Tran, Jonah Samost, Maciej Kula, Ed H. Chi, Maheswaran Sathiamoorthy.*
-
-* (HSTU) **Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations.** ICML 2024. [[paper](https://arxiv.org/abs/2402.17152)] [[code](https://github.com/facebookresearch/generative-recommenders)] ![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/generative-recommenders)
-
-    *Jiaqi Zhai, Lucy Liao, Xing Liu, Yueming Wang, Rui Li, Xuan Cao, Leon Gao, Zhaojie Gong, Fangda Gu, Michael He, Yinghai Lu, Yu Shi.*
-
-* **EAGER: Two-Stream Generative Recommender with Behavior-Semantic Collaboration.** KDD 2024. [[paper](https://arxiv.org/abs/2406.14017)] [[code](https://github.com/yewzz/EAGER)] ![GitHub Repo stars](https://img.shields.io/github/stars/yewzz/EAGER)
-
-    *Ye Wang, Jiahao Xun, Minjie Hong, Jieming Zhu, Tao Jin, Wang Lin, Haoyuan Li, Linjun Li, Yan Xia, Zhou Zhao, Zhenhua Dong.*
-
-* **SC-Rec: Enhancing Generative Retrieval with Self-Consistent Reranking for Sequential Recommendation.** arXiv:2408.08686. [[paper](https://arxiv.org/abs/2408.08686)]
-
-    *Tongyoung Kim, Soojin Yoon, Seongku Kang, Jinyoung Yeo, Dongha Lee.*
-
-* (SpecGR) **Inductive Generative Recommendation via Retrieval-based Speculation.** arXiv:2410.02939. [[paper](https://arxiv.org/abs/2410.02939)] [[code](https://github.com/Jamesding000/SpecGR)] ![GitHub Repo stars](https://img.shields.io/github/stars/Jamesding000/SpecGR)
-
-    *Yijie Ding, Yupeng Hou, Jiacheng Li, Julian McAuley.*
-
-* (LIGER) **Unifying Generative and Dense Retrieval for Sequential Recommendation.** arXiv:2411.18814. [[paper](https://arxiv.org/abs/2411.18814)]
-
-    *Liu Yang, Fabian Paischer, Kaveh Hassani, Jiacheng Li, Shuai Shao, Zhang Gabriel Li, Yun He, Xue Feng, Nima Noorshams, Sem Park, Bo Long, Robert D Nowak, Xiaoli Gao, Hamid Eghbalzadeh.*
-
-* **OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment.** arXiv:2502.18965. [[paper](https://arxiv.org/abs/2502.18965)]
-
-    *Jiaxin Deng, Shiyao Wang, Kuo Cai, Lejian Ren, Qigen Hu, Weifeng Ding, Qiang Luo, Guorui Zhou.*
-
-#### Item Tokenization
-
-* (DSI) **Transformer Memory as a Differentiable Search Index.** NeurIPS 2022. [[paper](https://arxiv.org/abs/2202.06991)]
-
-   *Yi Tay, Vinh Q. Tran, Mostafa Dehghani, Jianmo Ni, Dara Bahri, Harsh Mehta, Zhen Qin, Kai Hui, Zhe Zhao, Jai Gupta, Tal Schuster, William W. Cohen, Donald Metzler.*
-
-* (NCI) **A Neural Corpus Indexer for Document Retrieval.** NeurIPS 2022. [[paper](https://arxiv.org/abs/2206.02743)] [[code](https://github.com/solidsea98/Neural-Corpus-Indexer-NCI)] ![GitHub Repo stars](https://img.shields.io/github/stars/solidsea98/Neural-Corpus-Indexer-NCI)
-
-   *Yujing Wang, Yingyan Hou, Haonan Wang, Ziming Miao, Shibin Wu, Hao Sun, Qi Chen, Yuqing Xia, Chengmin Chi, Guoshuai Zhao, Zheng Liu, Xing Xie, Hao Allen Sun, Weiwei Deng, Qi Zhang, Mao Yang.*
+##### Quantization
 
 * (VQ-Rec) **Learning Vector-Quantized Item Representation for Transferable Sequential Recommenders.** WWW 2023. [[paper](https://arxiv.org/abs/2210.12316)] [[code](https://github.com/RUCAIBox/VQ-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/VQ-Rec)
 
    *Yupeng Hou, Zhankui He, Julian McAuley, Wayne Xin Zhao.*
 
-* **How to Index Item IDs for Recommendation Foundation Models.** SIGIR-AP 2023. [[paper](https://arxiv.org/abs/2305.06569)] [[code](https://github.com/Wenyueh/LLM-RecSys-ID)] ![GitHub Repo stars](https://img.shields.io/github/stars/Wenyueh/LLM-RecSys-ID)
+* (TIGER) **Recommender Systems with Generative Retrieval.** NeurIPS 2023. [[paper](https://arxiv.org/abs/2305.05065)]
 
-   *Wenyue Hua, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang.*
+   *Shashank Rajput, Nikhil Mehta, Anima Singh, Raghunandan H. Keshavan, Trung Vu, Lukasz Heldt, Lichan Hong, Yi Tay, Vinh Q. Tran, Jonah Samost, Maciej Kula, Ed H. Chi, Maheswaran Sathiamoorthy.*
 
 * **Generative Sequential Recommendation with GPTRec.** Gen-IR @ SIGIR 2023 workshop. [[paper](https://arxiv.org/abs/2306.11114)]
 
    *Aleksandr V. Petrov, Craig Macdonald.*
-
-* (SEATER) **Generative Retrieval with Semantic Tree-Structured Item Identifiers via Contrastive Learning.** SIGIR-AP 2024. [[paper](https://arxiv.org/abs/2309.13375)] [[code](https://github.com/ethan00si/seater_generative_retrieval)] ![GitHub Repo stars](https://img.shields.io/github/stars/ethan00si/seater_generative_retrieval)
-
-    *Zihua Si, Zhongxiang Sun, Jiale Chen, Guozhang Chen, Xiaoxue Zang, Kai Zheng, Yang Song, Xiao Zhang, Jun Xu, Kun Gai.*
 
 * (ColaRec) **Content-Based Collaborative Generation for Recommender Systems.** CIKM 2024. [[paper](https://arxiv.org/abs/2403.18480)] [[code](https://github.com/Junewang0614/ColaRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/Junewang0614/ColaRec)
 
@@ -339,10 +308,6 @@
 
     *Wenjie Wang, Honghui Bao, Xinyu Lin, Jizhi Zhang, Yongqi Li, Fuli Feng, See-Kiong Ng, Tat-Seng Chua.*
 
-* (MBGen) **Multi-Behavior Generative Recommendation.** CIKM 2024. [[paper](https://arxiv.org/abs/2405.16871)] [[code](https://github.com/anananan116/MBGen)] ![GitHub Repo stars](https://img.shields.io/github/stars/anananan116/MBGen)
-
-    *Zihan Liu, Yupeng Hou, Julian McAuley.*
-
 * (ETEGRec) **End-to-End Learnable Item Tokenization for Generative Recommendation.** arXiv:2409.05546. [[paper](https://arxiv.org/abs/2409.05546)]
 
     *Enze Liu, Bowen Zheng, Cheng Ling, Lantao Hu, Han Li, Wayne Xin Zhao.*
@@ -351,31 +316,89 @@
 
     *Taolin Zhang, Junwei Pan, Jinpeng Wang, Yaohua Zha, Tao Dai, Bin Chen, Ruisheng Luo, Xiaoxiang Deng, Yuan Wang, Ming Yue, Jie Jiang, Shu-Tao Xia.*
 
-* (PRORec) **Progressive Collaborative and Semantic Knowledge Fusion for Generative Recommendation.** arXiv:2502.06269. [[paper](https://arxiv.org/abs/2502.06269)]
+##### Hierarchical Clustering
 
-    *Longtao Xiao, Haozhao Wang, Cheng Wang, Linfei Ji, Yifan Wang, Jieming Zhu, Zhenhua Dong, Rui Zhang, Ruixuan Li.*
+* (DSI) **Transformer Memory as a Differentiable Search Index.** NeurIPS 2022. [[paper](https://arxiv.org/abs/2202.06991)]
+
+   *Yi Tay, Vinh Q. Tran, Mostafa Dehghani, Jianmo Ni, Dara Bahri, Harsh Mehta, Zhen Qin, Kai Hui, Zhe Zhao, Jai Gupta, Tal Schuster, William W. Cohen, Donald Metzler.*
+
+* (NCI) **A Neural Corpus Indexer for Document Retrieval.** NeurIPS 2022. [[paper](https://arxiv.org/abs/2206.02743)] [[code](https://github.com/solidsea98/Neural-Corpus-Indexer-NCI)] ![GitHub Repo stars](https://img.shields.io/github/stars/solidsea98/Neural-Corpus-Indexer-NCI)
+
+   *Yujing Wang, Yingyan Hou, Haonan Wang, Ziming Miao, Shibin Wu, Hao Sun, Qi Chen, Yuqing Xia, Chengmin Chi, Guoshuai Zhao, Zheng Liu, Xing Xie, Hao Allen Sun, Weiwei Deng, Qi Zhang, Mao Yang.*
+
+* **How to Index Item IDs for Recommendation Foundation Models.** SIGIR-AP 2023. [[paper](https://arxiv.org/abs/2305.06569)] [[code](https://github.com/Wenyueh/LLM-RecSys-ID)] ![GitHub Repo stars](https://img.shields.io/github/stars/Wenyueh/LLM-RecSys-ID)
+
+   *Wenyue Hua, Shuyuan Xu, Yingqiang Ge, Yongfeng Zhang.*
+
+* (SEATER) **Generative Retrieval with Semantic Tree-Structured Item Identifiers via Contrastive Learning.** SIGIR-AP 2024. [[paper](https://arxiv.org/abs/2309.13375)] [[code](https://github.com/ethan00si/seater_generative_retrieval)] ![GitHub Repo stars](https://img.shields.io/github/stars/ethan00si/seater_generative_retrieval)
+
+    *Zihua Si, Zhongxiang Sun, Jiale Chen, Guozhang Chen, Xiaoxue Zang, Kai Zheng, Yang Song, Xiao Zhang, Jun Xu, Kun Gai.*
+
+##### Contextual Action Tokenization
 
 * **ActionPiece: Contextually Tokenizing Action Sequences for Generative Recommendation.** arXiv:2502.13581. [[paper](https://arxiv.org/abs/2502.13581)]
 
     *Yupeng Hou, Jianmo Ni, Zhankui He, Noveen Sachdeva, Wang-Cheng Kang, Ed H. Chi, Julian McAuley, Derek Zhiyuan Cheng.*
 
-#### Aligning with Language Models
+##### Behavior-aware Tokenization
 
-* **Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5).** RecSys 2022. [[paper](https://arxiv.org/abs/2203.13366)] [[code](https://github.com/jeykigung/P5)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeykigung/P5)
+* **EAGER: Two-Stream Generative Recommender with Behavior-Semantic Collaboration.** KDD 2024. [[paper](https://arxiv.org/abs/2406.14017)] [[code](https://github.com/yewzz/EAGER)] ![GitHub Repo stars](https://img.shields.io/github/stars/yewzz/EAGER)
 
-   *Shijie Geng, Shuchang Liu, Zuohui Fu, Yingqiang Ge, Yongfeng Zhang.*
+    *Ye Wang, Jiahao Xun, Minjie Hong, Jieming Zhu, Tao Jin, Wang Lin, Haoyuan Li, Linjun Li, Yan Xia, Zhou Zhao, Zhenhua Dong.*
+
+* **SC-Rec: Enhancing Generative Retrieval with Self-Consistent Reranking for Sequential Recommendation.** arXiv:2408.08686. [[paper](https://arxiv.org/abs/2408.08686)]
+
+    *Tongyoung Kim, Soojin Yoon, Seongku Kang, Jinyoung Yeo, Dongha Lee.*
+
+* (MBGen) **Multi-Behavior Generative Recommendation.** CIKM 2024. [[paper](https://arxiv.org/abs/2405.16871)] [[code](https://github.com/anananan116/MBGen)] ![GitHub Repo stars](https://img.shields.io/github/stars/anananan116/MBGen)
+
+    *Zihan Liu, Yupeng Hou, Julian McAuley.*
+
+* (PRORec) **Progressive Collaborative and Semantic Knowledge Fusion for Generative Recommendation.** arXiv:2502.06269. [[paper](https://arxiv.org/abs/2502.06269)]
+
+    *Longtao Xiao, Haozhao Wang, Cheng Wang, Linfei Ji, Yifan Wang, Jieming Zhu, Zhenhua Dong, Rui Zhang, Ruixuan Li.*
+
+##### Language Model-based Generator
 
 * (LMIndexer) **Language Models As Semantic Indexers.** ICDE 2024. [[paper](https://arxiv.org/abs/2310.07815)] [[code](https://github.com/PeterGriffinJin/LMIndexer)] ![GitHub Repo stars](https://img.shields.io/github/stars/PeterGriffinJin/LMIndexer)
 
     *Bowen Jin, Hansi Zeng, Guoyin Wang, Xiusi Chen, Tianxin Wei, Ruirui Li, Zhengyang Wang, Zheng Li, Yang Li, Hanqing Lu, Suhang Wang, Jiawei Han, Xianfeng Tang.*
 
-* (LC-Rec) **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/abs/2311.09049)] [[code](https://github.com/RUCAIBox/LC-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/LC-Rec)
-
-    *Bowen Zheng, Yupeng Hou, Hongyu Lu, Yu Chen, Wayne Xin Zhao, Ming Chen, Ji-Rong Wen.*
-
 * **IDGenRec: LLM-RecSys Alignment with Textual ID Learning.** SIGIR 2024. [[paper](https://arxiv.org/abs/2403.19021)] [[code](https://github.com/agiresearch/IDGenRec)] ![GitHub Repo stars](https://img.shields.io/github/stars/agiresearch/IDGenRec)
 
     *Juntao Tan, Shuyuan Xu, Wenyue Hua, Yingqiang Ge, Zelong Li, Yongfeng Zhang.*
+
+#### Architecture
+
+##### Dense & Generative Retrieval
+
+* (SpecGR) **Inductive Generative Recommendation via Retrieval-based Speculation.** arXiv:2410.02939. [[paper](https://arxiv.org/abs/2410.02939)] [[code](https://github.com/Jamesding000/SpecGR)] ![GitHub Repo stars](https://img.shields.io/github/stars/Jamesding000/SpecGR)
+
+    *Yijie Ding, Yupeng Hou, Jiacheng Li, Julian McAuley.*
+
+* (LIGER) **Unifying Generative and Dense Retrieval for Sequential Recommendation.** arXiv:2411.18814. [[paper](https://arxiv.org/abs/2411.18814)]
+
+    *Liu Yang, Fabian Paischer, Kaveh Hassani, Jiacheng Li, Shuai Shao, Zhang Gabriel Li, Yun He, Xue Feng, Nima Noorshams, Sem Park, Bo Long, Robert D Nowak, Xiaoli Gao, Hamid Eghbalzadeh.*
+
+##### Unified Retrieval and Ranking
+
+* (HSTU) **Actions Speak Louder than Words: Trillion-Parameter Sequential Transducers for Generative Recommendations.** ICML 2024. [[paper](https://arxiv.org/abs/2402.17152)] [[code](https://github.com/facebookresearch/generative-recommenders)] ![GitHub Repo stars](https://img.shields.io/github/stars/facebookresearch/generative-recommenders)
+
+    *Jiaqi Zhai, Lucy Liao, Xing Liu, Yueming Wang, Rui Li, Xuan Cao, Leon Gao, Zhaojie Gong, Fangda Gu, Michael He, Yinghai Lu, Yu Shi.*
+
+* **OneRec: Unifying Retrieve and Rank with Generative Recommender and Iterative Preference Alignment.** arXiv:2502.18965. [[paper](https://arxiv.org/abs/2502.18965)]
+
+    *Jiaxin Deng, Shiyao Wang, Kuo Cai, Lejian Ren, Qigen Hu, Weifeng Ding, Qiang Luo, Guorui Zhou.*
+
+#### Aligning with LLMs
+
+* **Recommendation as Language Processing (RLP): A Unified Pretrain, Personalized Prompt & Predict Paradigm (P5).** RecSys 2022. [[paper](https://arxiv.org/abs/2203.13366)] [[code](https://github.com/jeykigung/P5)] ![GitHub Repo stars](https://img.shields.io/github/stars/jeykigung/P5)
+
+   *Shijie Geng, Shuchang Liu, Zuohui Fu, Yingqiang Ge, Yongfeng Zhang.*
+
+* (LC-Rec) **Adapting Large Language Models by Integrating Collaborative Semantics for Recommendation.** ICDE 2024. [[paper](https://arxiv.org/abs/2311.09049)] [[code](https://github.com/RUCAIBox/LC-Rec)] ![GitHub Repo stars](https://img.shields.io/github/stars/RUCAIBox/LC-Rec)
+
+    *Bowen Zheng, Yupeng Hou, Hongyu Lu, Yu Chen, Wayne Xin Zhao, Ming Chen, Ji-Rong Wen.*
 
 * (AtSpeed) **Efficient Inference for Large Language Model-based Generative Recommendation.** ICLR 2025. [[paper](https://arxiv.org/abs/2410.05165)] [[code](https://github.com/Linxyhaha/AtSpeed)] ![GitHub Repo stars](https://img.shields.io/github/stars/Linxyhaha/AtSpeed)
 
@@ -384,10 +407,6 @@
 * **Semantic Convergence: Harmonizing Recommender Systems via Two-Stage Alignment and Behavioral Semantic Tokenization.** AAAI 2025. [[paper](https://arxiv.org/abs/2412.13771)]
 
     *Guanghan Li, Xun Zhang, Yufei Zhang, Yifan Yin, Guojun Yin, Wei Lin.*
-
-* (SETRec) **Order-agnostic Identifier for Large Language Model-based Generative Recommendation.** arXiv:2502.10833. [[paper](https://arxiv.org/abs/2502.10833)]
-
-    *Xinyu Lin, Haihan Shi, Wenjie Wang, Fuli Feng, Qifan Wang, See-Kiong Ng, Tat-Seng Chua.*
 
 * **EAGER-LLM: Enhancing Large Language Models as Recommenders through Exogenous Behavior-Semantic Integration.** WWW 2025. [[paper](https://arxiv.org/abs/2502.14735)]
 
@@ -537,23 +556,6 @@
 
     *Yiyan Xu, Wenjie Wang, Fuli Feng, Yunshan Ma, Jizhi Zhang, Xiangnan He.*
 
-
-## Resouces
-
-### Tutorials
-
-* **A Review of Modern Recommender Systems Using Generative Models (Gen-RecSys).** KDD 2024. [[paper](https://arxiv.org/abs/2404.00579)]
-
-    *Yashar Deldjoo, Zhankui He, Julian McAuley, Anton Korikov, Scott Sanner, Arnau Ramisa, René Vidal, Maheswaran Sathiamoorthy, Atoosa Kasirzadeh, Silvia Milano.*
-
-* **Generative Recommendation Models: Progress and Directions.** WWW 2025. [[website](large-genrec.github.io/www2025.html)]
-
-    *Yupeng Hou, An Zhang, Leheng Sheng, Zhengyi Yang, Xiang Wang, Tat-Seng Chua, Julian McAuley.*
-
-* **Generative Large Recommendation Models: Emerging Trends in LLMs for Recommendation.** WWW 2025. [[paper](https://arxiv.org/abs/2502.13783)]
-
-    *Hao Wang, Wei Guo, Luankang Zhang, Jin Yao Chin, Yufei Ye, Huifeng Guo, Yong Liu, Defu Lian, Ruiming Tang, Enhong Chen.*
-
-### Open Source Projects
+## Resources
 
 * [Awesome-Generative-RecSys](https://github.com/jihoo-kim/Awesome-Generative-RecSys) - A repo featuring papers on generative recommender systems, though not actively maintained.
