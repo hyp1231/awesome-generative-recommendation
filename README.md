@@ -4,6 +4,18 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+---
+
+📌 Pinned
+
+* WWW 2025 Tutorial on generative recommendation models based on **LLMs**, **semantic IDs**, and **diffusion** models. [[website](large-genrec.github.io/www2025.html)]
+
+<center><strong>
+Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4
+</strong></center>
+
+---
+
 - [Papers](#papers)
   - [Surveys](#surveys)
   - [LLM-based Generative Recommendation](#llm-based-generative-recommendation)
@@ -559,3 +571,7 @@
 ## Resources
 
 * [Awesome-Generative-RecSys](https://github.com/jihoo-kim/Awesome-Generative-RecSys) - A repo featuring papers on generative recommender systems, though not actively maintained.
+
+## Join Our Community
+
+We invite you to join our **Discord** community to connect with other researchers and practitioners interested in **generative recommendation models**. Share your ideas, ask questions, and stay updated on the latest developments in the field. [[invitation link](https://discord.gg/8vCbzVKr)]
