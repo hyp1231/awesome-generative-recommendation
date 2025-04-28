@@ -8,7 +8,7 @@
 
 📌 Pinned
 
-* WWW 2025 Tutorial on generative recommendation models based on **LLMs**, **semantic IDs**, and **diffusion** models. [[website](large-genrec.github.io/www2025.html)]
+* WWW 2025 Tutorial on generative recommendation models based on **LLMs**, **semantic IDs**, and **diffusion** models. [[website](https://large-genrec.github.io/www2025.html)]
 
 <center><strong>
 Day 2: Tuesday, April 29, 2025, 9:00 AM - 12:30 PM (AEST), in Room C2.4
